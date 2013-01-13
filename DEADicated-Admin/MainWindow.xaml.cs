@@ -24,5 +24,11 @@ namespace DEADicated_Admin
         {
             InitializeComponent();
         }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            System.Environment.Exit(0);
+
+        }
     }
 }
