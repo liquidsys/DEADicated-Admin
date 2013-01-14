@@ -1,9 +1,0 @@
-﻿<Window x:Name="Main" x:Class="DEADicated_Admin.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="DEADicated Admin" Height="350" Width="525">
-    <Grid>
-        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="433,291,0,0" VerticalAlignment="Top" Width="75" IsDefault="True" Click="btnExit_Click"/>
-
-    </Grid>
-</Window>

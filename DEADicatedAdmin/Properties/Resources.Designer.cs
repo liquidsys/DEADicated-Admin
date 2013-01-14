@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DeadicatedAdmin.Properties {
+namespace DEADicatedAdmin.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace DeadicatedAdmin.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DeadicatedAdmin.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DEADicatedAdmin.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,16 @@ namespace DeadicatedAdmin.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CSGOwhite {
+            get {
+                object obj = ResourceManager.GetObject("CSGOwhite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
